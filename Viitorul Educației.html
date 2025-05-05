@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="v_educatiei.css" /> 
+        <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/9028d8baf0.js" crossorigin="anonymous"></script>
+        <title>
+                Viitorul Educației
+        </title>
+    </head>
+    <body>
+        <div class = "header">
+            <h1> Viitorul Educației</h1>
+        </div>
+        <div class="form-container">
+            <h2>Formular de Opinie - Viitorul Educației</h2>
+            <form action="olanescu.emanuel.2020@cnhurmuzachi.ro" method="post">
+              
+              <label>Nume (opțional):</label>
+              <input type="text" id="nume" name="nume">
+        
+              <label>Email (opțional):</label>
+              <input type="email" id="email" name="email">
+        
+              <label>Ocupație:</label>
+              <input type="text" id="ocupatie" name="ocupatie" required>
+        
+              <label>Nivel de educație:</label>
+              <select id="nivel-educatie" name="nivel-educatie" required>
+                <option value="elev-student">Elev/Student</option>
+                <option value="absolvent-liceu">Absolvent de liceu</option>
+                <option value="licentiat">Licențiat</option>
+                <option value="masterat">Masterat</option>
+                <option value="doctorat">Doctorat</option>
+                <option value="alte">Altele</option>
+              </select>
+        
+              
+              <label>Opțiune preferată despre viitorul educației:</label>
+              <select name="optiune" required>
+                <option value="tehnologie">Integrarea tehnologiei în procesul de învățare</option>
+                <option value="individualizare">Individualizarea procesului de învățare</option>
+                <option value="globalizare">Globalizarea educației</option>
+                <option value="adaptare-curriculum">Adaptarea curriculumului la schimbările de societate</option>
+                <option value="alte">Altele</option>
+              </select>
+        
+              
+              <label for="comentarii">Comentarii:</label>
+              <textarea id="comentarii" name="comentarii" rows="4"></textarea>
+        
+              
+              <label for="altele">Alte sugestii sau opinii despre viitorul educației:</label>
+              <textarea id="altele" name="altele" rows="4"></textarea>
+        
+              
+              <label>Cum vedeți evoluția metodelor de evaluare în viitorul educației?</label>
+              <div>
+                <input type="radio" id="evaluare-progres" name="evaluare" value="evaluare-progres" required>
+                <label>Mai mult accent pe evaluarea continuă și proiecte practice.</label>
+              </div>
+              <div>
+                <input type="radio" id="evaluare-tehnologie" name="evaluare" value="evaluare-tehnologie" required>
+                <label>Utilizarea tehnologiei pentru evaluări mai personalizate.</label>
+              </div>
+              <div>
+                <input type="radio" id="evaluare-traditionala" name="evaluare" value="evaluare-traditionala" required>
+                <label>Menținerea testelor tradiționale.</label>
+              </div>
+        
+              <label>Cum vă imaginați implicarea părinților în educația copiilor în viitor?</label>
+              <div>
+                <input type="checkbox" id="implicare-stransa" name="implicare-stransa" value="implicare-stransa">
+                <label>Parteneriat strâns între școală și familie.</label>
+              </div>
+              <div>
+                <input type="checkbox" id="participare-activa" name="participare-activa" value="participare-activa">
+                <label>Participare activă a părinților în programele educaționale.</label>
+              </div>
+              <div>
+                <input type="checkbox" id="responsabilitate-scoala" name="responsabilitate-scoala" value="responsabilitate-scoala">
+                <label>Responsabilitate predominantă a școlii în educația copiilor.</label>
+              </div>
+
+              <input type="submit" value="Trimite">
+            </form>
+          </div>
+        
+        <div class = "footer">
+            <div class = "col1">
+                <h3>USEFUL LINKS</h3>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <a href="#">Shop</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class = "col2">
+                <h3>NEWSLETTER</h3>
+                <form>
+                    <input type="text" placeholder = "Adresa ta de email">
+                    <br>
+                    <button type="submit">ABONEAZA-TE ACUM</button>
+                </form>
+            </div>
+            <div class = "col3">
+                <h3>CONTACT</h3>
+                <p>Romania, Suceava, Arbore<br>str. Luca Arbure, nr.7</p>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-behance"></i>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

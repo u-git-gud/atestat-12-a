@@ -1,0 +1,170 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      padding: 0;
+      background-color: rgb(147, 177, 166)
+  }
+
+.header{
+    font-weight: 700;
+    color: #111;
+    font-size: 200%;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background-position: right;
+    margin-right: 10%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; 
+  max-width: 2000px;
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+.c1{
+  flex: 1; 
+  margin: 0 10px; 
+  border: 1px solid #ccc; 
+  padding: 10px;
+} 
+
+.fa-regular fa-thumbs-up{
+  text-align: center;
+  font-size: 30px;
+}
+
+.buton{
+    text-align: center;
+  }
+
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  section:hover {
+    transform: scale(1.05);
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+  }
+
+  h2 {
+    margin-left: 100px;
+    color: rgb(24, 61, 61);
+    margin-right: 100px;
+  }
+   ul{
+    margin-left: 100px;
+    margin-right: 100px;
+   }
+
+  p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  img {
+    max-width: 400px; 
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    
+  }
+
+  .il{
+    margin-left: 10%;
+  }
+
+  .i1{
+    float: left; 
+    margin-right: 20px; 
+    margin-left: 100px;
+  }
+
+  .i2{
+    float: right; 
+    margin-right: 100px; 
+    margin-left: 20px;
+  }
+
+.footer {
+    margin-top: 5%;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+
+.footer div{
+  text-align: center;
+}
+
+.col1{
+  margin-left: 10%;
+}
+
+.col2{
+  flex-grow: 2;
+  margin-right: 0;
+}
+
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.col1 a{
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.col3{
+  flex-grow: 2;
+  margin-right: 15%;
+}
+
+form input{
+  width: 200px;
+  height: 25px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.social-icons{
+  margin-top: 30px;
+}
+
+.social-icons i{
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}

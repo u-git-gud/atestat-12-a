@@ -1,0 +1,37 @@
+.header {
+    font-size: 250%;
+    background-image: url('indexed.jpg');
+    background-repeat: no-repeat;
+    padding: 150px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    background-position: center center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: rgb(147, 177, 166, 0.3);
+    position: fixed;
+    top: 0;
+    height: 100%;
+  }
+
+  li {
+    position: relative;
+    float: left;
+  }
+
+  li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(24, 61, 61);
+  }

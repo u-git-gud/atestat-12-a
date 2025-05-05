@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(147, 177, 166);
+    line-height: 1.6;
+  }
+
+.header{
+    font-weight: 700;
+    color: #111;
+    font-size: 200%;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.paragraf{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    text-align: justify;
+    margin-right: 3%;
+}
+
+.i1{
+    float: left;
+    width: 30%;
+}
+
+.i2{
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.p2{
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    text-align: justify;
+    margin-right: 3%;
+}
+
+.body2{
+  margin-top: 10%;
+  display:flex;
+  width: 70%;
+}
+
+.p3{
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  float: left;
+  width: 90%;
+  margin-left: 7%;
+  text-align: justify;
+  margin-right: 3%;
+}
+
+.buton{
+  text-align: center;
+}
+
+.p4{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    margin-left: 5%;
+    text-align: justify;
+    margin-right: 3%;
+}
+
+
+.i3{
+  float: right;
+  margin: 2%;
+}
+
+.c1{
+  float: left;
+  width: 45%;
+  padding: 10px;
+  border-right: 1px solid black;
+}
+
+.c2{
+  float: left;
+  width: 45%;
+  padding: 10px;
+
+}
+
+.ilast{
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.row{
+  margin: 2%;
+  background-color: rgb(92, 131, 116);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+    margin-top: 5%;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+
+.footer div{
+  text-align: center;
+}
+
+.col1{
+  margin-left: 10%;
+}
+
+.col2{
+  flex-grow: 2;
+  margin-right: 0;
+}
+
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.col1 a{
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.col3{
+  flex-grow: 2;
+  margin-right: 15%;
+}
+
+form input{
+  width: 200px;
+  height: 25px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.social-icons{
+  margin-top: 30px;
+}
+
+.social-icons i{
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}

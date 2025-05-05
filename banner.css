@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(92, 131, 116);
+    font-family: Arial, sans-serif;
+  }
+
+  .header {
+    font-size: 150%;
+    border-top: 100px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    background-position: center center;
+  }
